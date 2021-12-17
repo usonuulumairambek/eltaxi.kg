@@ -1,0 +1,15 @@
+.e1 {
+    position: absolute;
+z-index: 0;
+}
+.e2 {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+}
+.main{
+    position: relative;
+    z-index: 20;
+    display: flex;
+    justify-content: space-between;
+}
