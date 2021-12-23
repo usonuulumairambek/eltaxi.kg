@@ -1,15 +1,22 @@
-.e1 {
-    position: absolute;
-z-index: 0;
-}
-.e2 {
-    position: absolute;
-    right: 0;
-    z-index: 0;
-}
+
 .main{
-    position: relative;
-    z-index: 20;
-    display: flex;
-    justify-content: space-between;
+  background-image: url(./images/mainbg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: 100%;
+}
+.main__text-tittle{
+    margin: 0;
+    /* margin-bottom: 30%; */
+    font-size: 120px;
+    text-align: center;
+}
+.main__text-subtittle{
+    margin: 0;
+
+    /* margin-bottom: 30%; */
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 200px;
 }
