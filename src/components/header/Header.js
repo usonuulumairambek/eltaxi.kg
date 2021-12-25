@@ -20,16 +20,16 @@ function Header() {
         <div className="header__bottom">
           <ul className="header__bottom-items">
             <li className="header__bottom-item">
-              <a href="#">Клиентам</a>
-            </li>{" "}
+              <a href="/klient">Клиентам</a>
+            </li>
             <li className="header__bottom-item">
-              <a href="#">Стать водителем</a>
-            </li>{" "}
+              <a href="/klient">Стать водителем</a>
+            </li>
             <li className="header__bottom-item">
-              <a href="#">Для бизнеса</a>
-            </li>{" "}
+              <a href="/klient">Для бизнеса</a>
+            </li>
             <li className="header__bottom-item">
-              <a href="#">Подключить таксопарк</a>
+              <a href="/klient">Подключить таксопарк</a>
             </li>
           </ul>
         </div>
