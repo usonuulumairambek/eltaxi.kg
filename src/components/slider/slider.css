@@ -1,13 +1,28 @@
 .slider__container {
-    width: 350px;
-    margin: 10%;
+    width: 330px;
     margin-right: 0;
 }
 
-.slider__container-item img {
-    width: 70%;
+.slider__container-item {
+    width: 330px;
 }
-.slick-arrow{
-    display: none!important;
+
+.slider__container-item img {
+    width: 330px;
+    margin-right: 2 00px;
+}
+
+.slick-arrow {
+    display: none !important;
 
 }
+
+.slick-slide {
+    margin-right: 50px;
+}
+
+.slick-active {
+    margin-right: 50px;
+}
+
+
