@@ -1,5 +1,14 @@
 import React from "react";
 import footerLogo from "./images/footerLogo.svg";
+import ecoel from "./images/ecoel.svg";
+import appStore from "./images/appStore.svg";
+import playmarket from "./images/playMarket.svg";
+import ins from "./images/ins.svg";
+import fb from "./images/fb.svg";
+import wh from "./images/wh.svg";
+import tg from "./images/tg.svg";
+
+import "./footer.css";
 function Footer() {
   return (
     <div className="footer">
@@ -32,10 +41,14 @@ function Footer() {
         <div className="footer__container__info">
           <div className="footer__container__info-logo">
             <img src={footerLogo} alt="" />
+            <div className="footer__container__info-project">
+              <span>Проект: </span>
+              <img src={ecoel} alt="" />
+            </div>
           </div>
           <div className="footer__container__info-apps">
-            <img src={footerLogo} alt="" />
-            <img src={footerLogo} alt="" />
+            <img src={playmarket} alt="" />
+            <img src={appStore} alt="" />
           </div>
           <div className="footer__container__info-nav">
             <a href="/dss">© 2021 ЭлTaxi</a>
@@ -43,10 +56,10 @@ function Footer() {
             <a href="/dss">Центр поддержки</a>
           </div>
           <div className="footer__container__info-social">
-            <img src={footerLogo} alt="" />
-            <img src={footerLogo} alt="" />
-            <img src={footerLogo} alt="" />
-            <img src={footerLogo} alt="" />
+            <img src={ins} alt="" />
+            <img src={tg} alt="" />
+            <img src={wh} alt="" />
+            <img src={fb} alt="" />
           </div>
         </div>
       </div>

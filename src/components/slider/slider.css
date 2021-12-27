@@ -1,9 +1,13 @@
-.slider__container{
+.slider__container {
     width: 350px;
     margin: 10%;
     margin-right: 0;
 }
 
-.slider__container-item img{
-width: 70%;
+.slider__container-item img {
+    width: 70%;
+}
+.slick-arrow{
+    display: none!important;
+
 }

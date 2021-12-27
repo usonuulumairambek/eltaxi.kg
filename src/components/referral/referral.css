@@ -5,6 +5,7 @@
 }
 
 .taxi__container {
+    padding: 10px;
     display: flex;
     /* height: 400px; */
     margin: 2% 0 2% 0;
@@ -23,4 +24,15 @@
 
 .taxi__container-img {
     width: 40%;
-    }
+}
+
+.taxi__container-button button {
+    width: 150px;
+    height: 50px;
+    background-color: #D32416;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    margin: 50px 0 0 0 ;
+}

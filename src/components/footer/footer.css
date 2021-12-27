@@ -1,0 +1,52 @@
+.footer {
+    background-color: #fff;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+
+.footer__container__item {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5% 2% 4%;
+}
+
+.footer__container__info-project span {
+    font-weight: bold;
+}
+
+.footer__container__info-project {
+    display: flex;
+
+}
+
+.footer__container__items {
+    display: flex;
+
+}
+
+.footer__container__item a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer__container__info {
+    padding: 0 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__container__info-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__container__info-nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer__container__info-social img {
+    margin-right: 10px;
+}

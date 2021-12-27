@@ -1,6 +1,8 @@
 import React from "react";
 import "./stock.css";
 import stockImg from "./images/stockImg.svg";
+import  appStore from "./images/appStore.svg";
+import  playmarket from "./images/playMarket.svg";
 function Stock() {
   return (
     <div className="stock">
@@ -13,13 +15,17 @@ function Stock() {
           </h4>
           <div className="stock__container_info-form">
             <form action="./action">
-              <input type="tell" />
-              <button>Получить кешбэк</button>
+              <div className="stock__container_info-input">
+                <input type="tell" />
+              </div>
+              <div className="stock__container_info-button">
+                <button>Получить кешбэк</button>
+              </div>
             </form>
           </div>
           <h5>или установите по ссылке ниже</h5>
-          {/* <img src={none} alt="" />
-          <img src={none} alt="" /> */}
+          <img src={appStore} alt="" />
+          <img src={playmarket} alt="" />
         </div>
         <div className="stock__container__img">
           <img src={stockImg} alt="" />

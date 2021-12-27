@@ -11,13 +11,13 @@ function Header() {
         <div className="header__top">
           <img src={logoEltaxi} alt="Logo  eltaxi" />
           <span className="header-location">
-            <img src={headerLocation} alt="" />
+            <img src={headerLocation} alt="" className="locationImg" />
             Бишкек
-            <img src={arrowDown} alt="" />
-            <a href="tel:+996709909443">+996 709 909 443</a>
+            <img src={arrowDown} alt="" className="arrow-down" />
+            <a className="header__top__link" href="tel:+996709909443">+996 709 909 443</a>
           </span>
         </div>
-        <div className="header__bottom">
+        <div className="header__bottom" > 
           <ul className="header__bottom-items">
             <li className="header__bottom-item">
               <a href="/klient">Клиентам</a>
