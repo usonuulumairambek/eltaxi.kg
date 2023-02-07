@@ -18,6 +18,7 @@ function App() {
       <Header />
       <Slider />
       <Main />
+      {/* sds */}
       <div className="app__content">
         <Taxi />
         <Rent />
